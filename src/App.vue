@@ -1,5 +1,6 @@
 <script>
 import AppTitle from "./components/AppTitle.vue";
+import AppJumbo from "./components/AppJumbo.vue";
 export default {
 
   data() {
@@ -9,7 +10,7 @@ export default {
   },
   components: {
     AppTitle,
-    // AppJumbo
+    AppJumbo
   }
   
 }
@@ -20,7 +21,7 @@ export default {
   <hr>
   <span>{{ message }}</span>
   <hr>
-  <!-- <AppJumbo></AppJumbo> -->
+  <AppJumbo></AppJumbo>
 
   
 </template>
